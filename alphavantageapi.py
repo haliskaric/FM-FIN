@@ -7,7 +7,7 @@ def get_description(api_key, symbol):
     return data.get('Description', f'Description not found for {symbol}')
 
 # Replace the 'your_api_key' below with your own key from https://www.alphavantage.co/support/#api-key
-api_key = 'YYIYJPK1IZ9SISF1'
+api_key = ''
 ticker_symbols = ['IBM', 'AAPL', 'GOOGL', 'MSFT']
 
 for symbol in ticker_symbols:
